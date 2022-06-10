@@ -1,0 +1,14 @@
+#navbar{
+    border: 1px solid blue;
+    height: 64px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+#display{
+    height: 250px;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: auto;
+     gap: 5%;
+ }
